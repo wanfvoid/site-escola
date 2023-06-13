@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Site da Escola</title>
+    <style>
+        /* Estilos gerais */
+  body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background; linear-gradient(to top, #0004ff, #ff0000);
+        }
+css
+Copy code
+    /* Estilos do cabeçalho */
+    header {
+        color: white;
+        padding: 20px;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    
+    .aluno {
+        display: inline-block;
+        width: 25%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .aluno h2 {
+        margin-top: 0;
+    }
+    
+    .aluno p {
+        margin-bottom: 0;
+    }
+    
+    /* Estilos do conteúdo principal */
+    .conteudo-principal {
+        background-color: white;
+        padding: 20px;
+        margin: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+    }
+    
+    /* Estilos das seções */
+    section {
+        margin-bottom: 40px;
+    }
+    
+    section h2 {
+        margin-top: 0;
+    }
+    
+    section p {
+        margin-bottom: 0;
+    }
+    
+    /* Estilos do rodapé */
+    footer {
+        color: white;
+        padding: 20px;
+        text-align: justify;
+        background-color: rgba(0, 0, 0, 0);
+    }
+   style>
+ head>
+body>
+    header>
+        <h1>Site da Escola</h1>
+        <div class="aluno">
+            <h2>Weslei</h2>
+            <p>Coloque aqui suas ideias</p>
+        </div>
+        <div class="aluno">
+            <h2>Vinicius</h2>
+            <p>Coloque aqui suas ideias</p>
+        </div>
+        <div class="aluno">
+            <h2>Luiz</h2>
+            <p>Coloque aqui suas ideias</p>
+        </div>
+        <div class="aluno">
+            <h2>Renato</h2>
+            <p>Coloque aqui suas ideias</p>
+        </div>
+    </header>
+css
+Copy code
+<div class="conteudo-principal">
+    <section>
+        <h2>Sobre a Escola</h2>
+        <p>A Escola é um ambiente de aprendizado e crescimento, onde os alunos têm a oportunidade de adquirir conhecimentos e desenvolver habilidades essenciais para o seu futuro.</p>
+    </section>
+    
+    <section>
+        <h2>Projetos</h2>
+        <p>Conheça alguns dos projetos desenvolvidos pelos alunos e professores da Escola, que buscam incentivar a criatividade, a inovação e o trabalho em equipe.</p>
+    </section>
+    
+    <section>
+        <h2>Eventos</h2>
+        <p>Fique por dentro dos eventos que acontecem na Escola, como palestras, workshops, feiras de ciências e atividades culturais, que enriquecem a experiência dos alunos.</p>
+    </section>
+</div>
+
+<footer>
+    <h2>História do Colégio</h2>
+    <p>O Colégio Regente Feijó foi fundado em [ano de fundação] e está localizado na Rua do Rosário 194. É uma instituição de ensino que tem como objetivo criar grandes profissionais em todas as áreas. Ao longo dos anos, o colégio tem se destacado na promoção de educação de qualidade, proporcionando aos alunos um ambiente acolhedor e estimulante para o aprendizado.</p>
+    <p>A equipe do Colégio Regente Feijó é composta por profissionais qualificados e dedicados, que se empenham em oferecer um ensino dinâmico e atualizado. Além disso, o colégio conta com uma ampla variedade de atividades extracurriculares, visando ao desenvolvimento integral dos estudantes.</p>
+</footer>
+</body>
+</html>
